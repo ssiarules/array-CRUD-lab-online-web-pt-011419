@@ -17,15 +17,18 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  
+  ["New Jersey"]
+  array.pop(array)
 end
 
 def remove_element_from_start_of_array(array)
-  
+  ["New Jersey"]
+  array.shift(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  ["New Jersey", "New York"]
+  index_number[1]
 end
 
 def retrieve_first_element_from_array(array)
