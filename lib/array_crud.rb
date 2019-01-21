@@ -1,17 +1,19 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["New Jersey","New York","Los Angeles", "London"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
-end
+  ["New Jersey", "New York"]
+ array.push(element)
+end 
 
 def add_element_to_start_of_array(array, element)
-  
+  add_element_to_end_of_array.unshift("Los Angeles")
+  ["New Jersey","New York"]
 end
 
 def remove_element_from_end_of_array(array)
