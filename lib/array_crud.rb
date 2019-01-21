@@ -28,7 +28,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
   ["New Jersey", "New York"]
-  [2]
+  [""]
 end
 
 def retrieve_first_element_from_array(array)
