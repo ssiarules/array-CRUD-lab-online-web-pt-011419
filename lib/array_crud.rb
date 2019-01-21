@@ -38,5 +38,5 @@ end
 
 def retrieve_last_element_from_array(array)
   ["New Jersey"]
-  array[-2]
+  array[-1]
 end
